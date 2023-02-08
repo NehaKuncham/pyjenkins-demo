@@ -1,4 +1,5 @@
 FROM ubuntu
+ENV LISTEN_PORT=5000
 EXPOSE 5000
 RUN apt-get update
 RUN apt-get install -y python3
